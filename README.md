@@ -1,6 +1,6 @@
 # Baudot
 
-Simply encode or decode strings
+Simply encode or decode strings in javascript
 
 ## Usage
 
