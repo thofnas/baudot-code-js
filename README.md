@@ -1,9 +1,7 @@
 # Baudot
-
 Simply encode or decode strings in javascript
 
 ## Usage
-
 ### HTML:
 ```javascript
 <script src="baudot.js"></script>
@@ -17,7 +15,11 @@ const decoded_message = decode(encoded_message)
 ```
 
 ### Custom combinations:
-Requerements: letters and numbers objects, 'switch' value in both of them, non repeatable 5-digit binary keys
+Requerements: 
+- letters and numbers objects
+- 'switch' value in both of them
+- non repeatable 5-digit binary keys
+
 ```javascript
  const custom_combinations = {
             letters: {
